@@ -1,0 +1,259 @@
+.profile #avatar {
+    display: inline-block
+}
+
+.profile #wrapper {
+    padding: 30px 40px 0;
+    max-width: 600px;
+    margin: 0 auto
+}
+
+.profile #header h3,
+.profile h2 {
+    margin-top: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal
+}
+
+@media only screen and (max-width:640px) {
+    .profile #wrapper {
+        padding: 60px 40px 0
+    }
+}
+
+.profile #header {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    position: relative
+}
+
+@media only screen and (max-width:640px) {
+    .profile #header {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: 0
+    }
+}
+
+.profile #avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.profile #avatar #avatar-image {
+    width: auto;
+    height: 100%;
+}
+
+.profile h1 {
+    font-weight: 600;
+    /* letter-spacing: -2px; */
+    font-size: 3em;
+    color: #222
+}
+
+@media only screen and (max-width:640px) {
+    .profile h1 {
+        font-size: 2em
+    }
+}
+
+.profile h2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #aaa
+}
+
+#title,
+b,
+strong {
+    font-weight: 500
+}
+
+@media only screen and (max-width:640px) {
+    h2 {
+        font-size: 24px
+    }
+}
+
+.profile #header h3 {
+    font-size: 14px;
+    color: grey
+}
+
+#wrapper {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 60px 40px 100px
+}
+
+#wrapper.home {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 40px 20px
+}
+
+#header {
+    border-bottom: 1px solid #eee
+}
+
+#header h2 {
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:540px) {
+    #wrapper {
+        padding: 20px
+    }
+    #header {
+        margin-bottom: 60px;
+        border-bottom: 1px solid #eee
+    }
+}
+
+.home #avatar {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%
+}
+
+.highlight {
+    color: #EB298C
+}
+
+.home h1 {
+    font-size: 30px;
+    /* letter-spacing: -1px; */
+    color: #222;
+    font-weight: 700
+}
+
+.home h2 {
+    font: italic 19px/1.3em Georgia, serif;
+    color: #bbb
+}
+
+.list-view {
+    display: table;
+    width: 100%;
+    margin: 0;
+}
+
+@media only screen and (min-width:793px) {
+    .list-view {
+        padding: 0 0 24px
+    }
+}
+
+@media only screen and (max-width:792px) {
+    .list-view {
+        padding: 0 16px 64px
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .list-view {
+        padding: 32px 0 64px
+    }
+}
+
+.list-item {
+    display: table-row;
+    font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    border: 0;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: circle;
+    list-style-position: inside;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.list-detail h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.list-detail p a {
+    color: #5694f1;
+    text-decoration: none;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+
+.list-header {
+    display: table-cell;
+}
+
+.list-header ._bubble {
+    width: 72px;
+    height: 72px;
+    border-radius: 35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 14px;
+    margin-right: 16px
+}
+
+@media only screen and (min-width:793px) {
+    .list-header ._bubble {
+        margin-top: 20px;
+        margin-right: 32px
+    }
+    .list-detail {
+        display: table-cell
+    }
+}
+
+@media only screen and (max-width:792px) {
+    .list-header {
+        padding-top: 16px
+    }
+    .list-header ._bubble {
+        margin-top: 0;
+        margin-right: 16px;
+        width: 56px;
+        height: 56px
+    }
+    .list-detail {
+        display: table-cell
+    }
+}
+
+.list-detail {
+    width: 100%;
+    padding: 25px 0 39px
+}
+
+@media only screen and (max-width:640px) {
+    .list-detail {
+        display: block
+    }
+}
+
+.list-header ._bubble {
+    background: beige;
+    /* position: absolute; */
+    /* margin-top: 0; */
+}
+
+.list-header, td, th {
+    vertical-align: top;
+}
